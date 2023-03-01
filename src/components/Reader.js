@@ -3,23 +3,21 @@ import React from 'react';
 const Header = () => {
   const headerStyle = {
     padding: '20px 0',
-    lineHeight: '1.5em',
+    lineHeight: '1.2',
   };
 
   return (
     <header style={headerStyle}>
       <h1
         style={{
-          fontSize: '6rem',
+          fontSize: '48px',
           fontWeight: '600',
-          marginBottom: '2rem',
-          lineHeight: '1em',
+          marginBottom: '40px',
           color: '#282828',
-          textTransform: 'lowercase',
           textAlign: 'center',
         }}
       >
-        todos
+        LIST
       </h1>
     </header>
   );

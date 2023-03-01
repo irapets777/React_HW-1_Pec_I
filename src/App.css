@@ -7,8 +7,8 @@
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   line-height: 1.4;
-  color: #444;
-  background: #fff;
+  color: #000000;
+  background: #ffffff;
   height: 100vh;
 }
 
@@ -23,7 +23,7 @@ body {
 
 .inner {
   width: 100%;
-  padding: 8rem 10px 4rem;
+  padding: 20px 10px 10px;
 }
 
 .form-container {
@@ -33,6 +33,7 @@ body {
   border-radius: calc(0.5 * 100px);
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
   justify-content: space-evenly;
+
 }
 
 .input-text {
@@ -42,15 +43,17 @@ body {
   padding-right: 5px;
   padding-left: 10px;
   border-radius: calc(0.5 * 100px);
+  
 }
 
 .input-text::placeholder {
-  color: #000;
+  color: #b1b1b1;
+  
 }
 
 .input-submit {
   background: transparent;
-  color: #5b5b5b;
+  color: #000000;
   text-transform: capitalize;
   cursor: pointer;
   font-weight: 600;
@@ -62,4 +65,5 @@ body {
   height: 45px;
   outline: none;
   border: none;
+  
 }
